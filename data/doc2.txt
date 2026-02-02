@@ -1,0 +1,4 @@
+Computer networks connect devices for communication and data sharing.
+Protocols like TCP and IP ensure reliable transmission.
+Sockets allow applications to send and receive messages.
+Security is important to protect data from attacks.

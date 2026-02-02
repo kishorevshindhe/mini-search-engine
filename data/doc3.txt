@@ -1,0 +1,4 @@
+Algorithms solve computational problems step by step.
+Sorting and searching are fundamental operations.
+Efficiency is measured using time and space complexity.
+Greedy and dynamic programming are powerful techniques.

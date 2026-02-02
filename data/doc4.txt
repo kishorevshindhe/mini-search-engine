@@ -1,0 +1,4 @@
+Artificial intelligence enables machines to learn from data.
+Machine learning models identify patterns and make predictions.
+Neural networks are widely used in deep learning.
+AI applications include vision, language, and robotics.

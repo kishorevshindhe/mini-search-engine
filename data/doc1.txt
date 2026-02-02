@@ -1,0 +1,4 @@
+Operating systems manage computer hardware and software resources.
+They control processes, memory, and file systems.
+CPU scheduling decides how processes share the processor.
+Fairness and efficiency are key design goals.
