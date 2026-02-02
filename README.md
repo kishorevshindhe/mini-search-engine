@@ -1,26 +1,24 @@
-# 🔍 Mini Search Engine with TF–IDF Ranking
+# Mini Search Engine with TF-IDF Ranking
 
-This project is a lightweight search engine built from scratch in Python that ranks text documents based on their relevance to a user query using **TF–IDF (Term Frequency–Inverse Document Frequency)** and **Cosine Similarity**.
+This project is a lightweight search engine made from scratch in Python. It ranks text documents based on how relevant they are to a user query using **TF-IDF (Term Frequency-Inverse Document Frequency)** and **Cosine Similarity**.
 
-The system demonstrates core concepts from **Information Retrieval, Algorithms, and Data Processing**, making it a strong computer science side project.
-
----
-
-## 🚀 Features
-
-- 📄 Reads multiple text documents from a folder  
-- 🧹 Text preprocessing:
-  - Lowercasing  
-  - Punctuation removal  
-  - Stop-word removal  
-  - Stemming (Porter Stemmer via NLTK)  
-- 📊 Represents documents using **TF–IDF vectors**  
-- 📐 Ranks documents using **Cosine Similarity**  
-- 💬 Interactive command-line search interface  
+The system shows basic ideas from **Information Retrieval, Algorithms, and Data Processing**. This makes it a valuable computer science side project.
 
 ---
 
-## 🧠 How It Works
+##  Features
+- Multiple text files from a directory are read.  
+- The following text preprocessing steps take place:
+  - Convert to lowercase
+  - Remove punctuation
+  - Remove stop words
+  - Stem words using the Porter Stemmer (via NLTK)
+- Writes documents as **TF–IDF vectors**  
+- Documents are ranked using **Cosine Similarity**  
+- An interactive search command-line interface is available.
+---
+
+##  How It Works
 
 1. **Tokenization** – cleans and normalizes text  
 2. **TF–IDF Computation** – assigns importance to words  
@@ -29,28 +27,9 @@ The system demonstrates core concepts from **Information Retrieval, Algorithms, 
 
 ---
 
-## 📁 Project Structure
-
-mini-search-engine/
-│
-├── data/
-│ ├── doc1.txt
-│ ├── doc2.txt
-│ ├── doc3.txt
-│ └── doc4.txt
-│
-├── engine/
-│ ├── init.py
-│ ├── tokenizer.py
-│ ├── tfidf.py
-│ └── ranker.py
-│
-└── main.py
-
-
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### Step 1 — Install dependencies
 
@@ -65,3 +44,14 @@ doc2.txt -> 0.276
 doc4.txt -> 0.029
 doc1.txt -> 0.0
 doc3.txt -> 0.0
+
+Learning Objectives
+
+This project gave me the following benefits:
+-A practical comprehension of information retrieval
+-Experience implementing TF–IDF from scratch
+-An understanding of text data's vector representation
+-Hands-on experience with cosine similarity ranking
+-a more solid foundation in data processing and algorithms
+
+In order to improve my systems-level and algorithmic knowledge for graduate computer science studies, this project was created as a fundamental computer science side project.
